@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexcss.css" />
+    <title>Browser</title>
+    <script src="indexjs.js"></script>
+</head>
+<body>
+<fieldset class="titlefieldset">
+    <label class="fortitle">AnonBook</label>
+</fieldset>
+<button type="button" id="addpost" class="foraddpost" onclick="popupadd()">Add Post</button>
+
+
+<div class="popup">
+    <div class="popupwindow">
+        <label class="popuplabel">Add New Post</label>
+        <form>
+            <textarea id="textarea" class="popuptextarea" placeholder="Write some post here"></textarea>
+            <input type="file" id="fileUpload" name="fileUpload" class="popupinput" accept=".jpg, .jpeg, .png">
+            <button type="submit" class="popupbutton1" style="margin: 10px auto 0 auto; display: block; border-color: #0000ff" onclick="popupsubmit()"> Submit</button>
+        </form>
+    </div>
+</div>
+
+<div id="themaindiv" class="verticallayout">
+</div>
+
+</body>
+</html>
+<!--!!!!!!!!!!!!!!!!!!!!!!fieldsetexamp!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<!--<div class="verticallayout">-->
+<!--    <fieldset class="listfieldset">-->
+<!--        <div class="verticallayoutforpost">-->
+<!--            <label>id number</label>-->
+<!--            <label class="posttextlabel">Post text</label>-->
+<!--            <img>img number</img>-->
+<!--        </div>-->
+<!--        <button type="button" class="viewpostbutton">View Post</button>-->
+<!--    </fieldset>-->
+<!--</div>-->

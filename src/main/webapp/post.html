@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexcss.css" />
+    <title>Browser</title>
+    <script src="postjs.js"></script>
+</head>
+<body>
+<fieldset class="titlefieldset">
+    <label class="fortitle">AnonBook</label>
+</fieldset>
+<div class="verticallayout">
+    <fieldset class="listfieldset" style="margin-top: 15px">
+        <div class="verticallayoutforpost">
+            <label id="id-date"></label>
+            <label id="text" class="posttextlabel"></label>
+            <img id="imgurl">
+        </div>
+    </fieldset>
+    <div class="verticallayoutforpost" style="width: 480px; margin-top: 10px">
+    <label>Comments</label>
+    <div id="comments" >
+
+    </div>
+        <div class="horizontaldiv">
+        <textarea id="textarea" class="fortextareainpost" placeholder="Write some comment here"></textarea>
+        <button type="button" class="addbutton" onclick="comment()">Add</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
